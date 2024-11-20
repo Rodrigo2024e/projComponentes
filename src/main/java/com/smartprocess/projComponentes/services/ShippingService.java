@@ -1,7 +1,10 @@
 package com.smartprocess.projComponentes.services;
 
+import org.springframework.stereotype.Service;
+
 import com.smartprocess.projComponentes.entities.Order;
 
+@Service
 public class ShippingService {
 
 	public double shipment(Order order) {
